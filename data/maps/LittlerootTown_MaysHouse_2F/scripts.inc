@@ -84,6 +84,9 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMayNorth::
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
+	call RivalsHouse_1F_EventScript_RegionChoice
+    msgbox RivalsHouse_1F_Text_OhIForgot, MSGBOX_DEFAULT
+    closemessage
 	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayNorth
 	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCNorth
 	waitmovement 0
@@ -96,6 +99,9 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMaySouth::
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
+	call RivalsHouse_1F_EventScript_RegionChoice
+    msgbox RivalsHouse_1F_Text_OhIForgot, MSGBOX_DEFAULT
+    closemessage
 	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMaySouth
 	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCSouth
 	waitmovement 0
@@ -108,6 +114,9 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMayWest::
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
+	call RivalsHouse_1F_EventScript_RegionChoice
+    msgbox RivalsHouse_1F_Text_OhIForgot, MSGBOX_DEFAULT
+    closemessage
 	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCWest
 	waitmovement 0
 	return
@@ -119,6 +128,9 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMayEast::
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
+	call RivalsHouse_1F_EventScript_RegionChoice
+    msgbox RivalsHouse_1F_Text_OhIForgot, MSGBOX_DEFAULT
+    closemessage
 	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayEast
 	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCEast
 	waitmovement 0
@@ -324,12 +336,7 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "I was hoping that you would be nice,\n"
 	.string "{PLAYER}{KUN}, and that we could be friends.\p"
 	.string "Oh, this is silly, isn't it?\n"
-	.string "I… I've just met you, {PLAYER}{KUN}.\p"
-	.string "Eheheh…\p"
-	.string "Oh, no! I forgot!\p"
-	.string "I was supposed to go help Dad catch\n"
-	.string "some wild POKéMON!\p"
-	.string "{PLAYER}{KUN}, I'll catch you later!$"
+	.string "I… I've just met you, {PLAYER}{KUN}.$"
 
 RivalsHouse_2F_Text_MayGettingReady:
 	.string "POKéMON fully restored!\n"
@@ -344,16 +351,9 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "I didn't know that you're a girl.\p"
 	.string "Dad, PROF. BIRCH, said that our new\n"
 	.string "next-door neighbor is a GYM LEADER's\l"
-	.string "kid, so I assumed you'd be a guy.\p"
+	.string "kid, so I was excited to meet you.\p"
 	.string "My name's BRENDAN.\n"
-	.string "So, hi, neighbor!\p"
-	.string "Huh? Hey, {PLAYER}, don't you have\n"
-	.string "a POKéMON?\p"
-	.string "Do you want me to go catch you one?\p"
-	.string "Aw, darn, I forgot…\p"
-	.string "I'm supposed to go help my dad catch\n"
-	.string "some wild POKéMON.\p"
-	.string "Some other time, okay?$"
+	.string "So, hi, neighbor!$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
 	.string "POKéMON fully restored…\n"
