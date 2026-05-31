@@ -51,31 +51,31 @@
 
 #else
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
-#define FLAG_UNUSED_0x031    0x31 // Unused Flag
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
+#define FLAG_UNUSED_0x020    0x20 // Unused Flag DEXNAV 1
+#define FLAG_UNUSED_0x021    0x21 // Unused Flag DEXNAV 2
+#define FLAG_UNUSED_0x022    0x22 // Unused Flag DEXNAV 3
+#define FLAG_UNUSED_0x023    0x23 // Unused Flag EXP SHARE
+#define FLAG_UNUSED_0x024    0x24 // Unused Flag VS SEEKER
+#define FLAG_UNUSED_0x025    0x25 // Unused Flag FOLLOWERS
+#define FLAG_UNUSED_0x026    0x26 // Unused Flag FORCE SHINY
+#define FLAG_UNUSED_0x027    0x27 // Unused Flag NO SHINY
+#define FLAG_UNUSED_0x028    0x28 // Unused Flag RELEARNER EGG MOVES
+#define FLAG_UNUSED_0x029    0x29 // Unused Flag RELEARNER TUTOR MOVES
+#define FLAG_UNUSED_0x02A    0x2A // Unused Flag INSTANT SPEED
+#define FLAG_UNUSED_0x02B    0x2B // Unused Flag INVERSE BATTLE
+#define FLAG_UNUSED_0x02C    0x2C // Unused Flag NO CATCHING
+#define FLAG_UNUSED_0x02D    0x2D // Unused Flag NO RUNNING
+#define FLAG_UNUSED_0x02E    0x2E // Unused Flag DYNAMAX BATTLE
+#define FLAG_UNUSED_0x02F    0x2F // Unused Flag TERRA ORB CHARGED
+#define FLAG_UNUSED_0x030    0x30 // Unused Flag TERRA ORB NO COST
+#define FLAG_UNUSED_0x031    0x31 // Unused Flag NO WHIETOUT
+#define FLAG_UNUSED_0x032    0x32 // Unused Flag WALK WALLS
+#define FLAG_UNUSED_0x033    0x33 // Unused Flag NO WILD BATTLES
+#define FLAG_UNUSED_0x034    0x34 // Unused Flag TALK TO TRAINER FOR BATTLE
+#define FLAG_UNUSED_0x035    0x35 // Unused Flag FLY FROM MAP/POKENAV
+#define FLAG_UNUSED_0x036    0x36 // Unused Flag FORCE DOUBLE WILD BATTLE
+#define FLAG_UNUSED_0x037    0x37 // Unused Flag OWE DISABLED
+#define FLAG_UNUSED_0x038    0x38 // Unused Flag 
 #define FLAG_UNUSED_0x039    0x39 // Unused Flag
 #define FLAG_UNUSED_0x03A    0x3A // Unused Flag
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag
