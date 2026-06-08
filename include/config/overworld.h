@@ -158,4 +158,10 @@
 // Configuration
 #define OW_AMBIENT_CRIES                OW_AMBIENT_CRIES_OWE_PRIORITY // Selects how ambient cries are played, if at all. As in vanilla, no matter what is chosen, cries will not play if the player is not on a map with Land or Water encounter tables.
 
+// StartMenu Clock
+#define SM_TIME_12H     0  // AM/PM CLOCK
+#define SM_TIME_24H     1  // 24H CLOCK
+#define SM_TIME_NONE    2  // NO CLOCK
+#define SM_TIME         SM_TIME_24H
+
 #endif // GUARD_CONFIG_OVERWORLD_H
