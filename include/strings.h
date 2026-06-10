@@ -2168,4 +2168,7 @@ extern const u8 gText_FollowerFainted[];
 extern const u8 gText_FollowerReturnedToBall[];
 extern const u8 gText_DoWhatWithFollower[];
 
+extern const u8 gText_DexNavDescription[];
+extern const u8 gText_DexNavNoEncounters[];
+
 #endif // GUARD_STRINGS_H
